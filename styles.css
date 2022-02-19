@@ -1,0 +1,19 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+/* .sliders{
+    text-align: center;
+} */
+h1{
+    text-align: center;
+    background-color: aliceblue;
+    width: max-content;
+}
+.wrapper{
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
