@@ -12,3 +12,9 @@ function changeValue(){
 }
 window.addEventListener("change",changeValue);
 window.addEventListener("input",changeValue);
+
+function copy(){
+    let copyText = document.getElementById("color");
+    navigator.clipboard.writeText(""+copyText.innerHTML);
+    alert("Copied Color code "+copyText.innerHTML);
+}
