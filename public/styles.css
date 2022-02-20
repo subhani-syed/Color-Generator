@@ -2,9 +2,6 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: white;
 }
-/* .sliders{
-    text-align: center;
-} */
 h1{
     text-align: center;
     background-color: aliceblue;
@@ -16,4 +13,11 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    box-shadow: 6px 5px 20px 1px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 6px 5px 20px 1px rgba(0,0,0,0.61);
+    -moz-box-shadow: 6px 5px 20px 1px rgba(0,0,0,0.61);
+}
+footer{
+    text-align: center;
 }
